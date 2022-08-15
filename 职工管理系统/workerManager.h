@@ -25,6 +25,20 @@ public:
 	int get_EmpNum();
 	//初始化员工
 	void initEmp();
+	//显示职工
+	void Show_Emp();
+	//删除职工
+	void Del_Emp();
+	//判断是否存在
+	int IsExit(int id);
+	//修改职工
+	void Mod_Emp();
+	//查找职工
+	void FindEmp();
+	//排序
+	void Sort_Emp();
+	//清空
+	void clean_File();
 public:
 	//记录职工人数
 	int m_EmpNum;
